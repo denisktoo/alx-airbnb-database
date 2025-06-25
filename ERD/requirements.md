@@ -4,7 +4,7 @@
 This Entity-Relationship diagram represents the database schema for the AirBnB Clone project, illustrating the relationships between core entities that support user management, property listings, booking operations, payment processing, reviews, and messaging functionality.
 
 ### ER Diagram
-![AirBnB Clone ER Diagram](https://drive.google.com/uc?export=view&id=1HoaTNpdgoTf-3puUUDbPetLQcgInSmYA)
+![AirBnB Clone ER Diagram](https://drive.google.com/uc?export=view&id=1aeL_dwMOzlFD7UGkYvBOdXYEoT4zkLiw)
 
 ### Entities Identified
 
