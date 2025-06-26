@@ -1,5 +1,4 @@
--- AirBnB Database - Complete Schema
--- Database: AirBnB Clone
+-- AirBnB Database
 -- All Tables with Constraints and Indexes
 
 -- Create User table
