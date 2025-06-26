@@ -1,4 +1,4 @@
-# Database Normalization - AirBnB System
+# Database Normalization
 
 ## Normalization Analysis
 
