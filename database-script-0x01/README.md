@@ -1,4 +1,4 @@
 # AirBnB Database - Complete Schema
 
-## Database: AirBnB Clone
+## Overview
 Contains All Tables with Constraints and Indexes
