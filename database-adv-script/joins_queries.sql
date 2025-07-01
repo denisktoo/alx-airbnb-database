@@ -1,4 +1,4 @@
-select
+SELECT
   b.*,
   u.*
   -- u.user_id
@@ -9,8 +9,8 @@ select
   -- u.phone_number
   -- u.role
   -- u.created_at
-  from Booking as b
-  inner join User u on b.user_id = u.user_id
+  FROM Booking as b
+  INNER JOIN User u on b.user_id = u.user_id
 
 select
   p.*,
