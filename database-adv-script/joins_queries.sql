@@ -2,7 +2,7 @@
 SELECT
   b.*,
   u.*
-  FROM Booking as b
+  FROM Booking b
   INNER JOIN User u on b.user_id = u.user_id;
 
 -- Using a LEFT JOIN to retrieve all properties and their reviews, including properties that have no reviews.
