@@ -3,9 +3,12 @@ SELECT
     p.*
 FROM 
     property b
-    JOIN Review r ON p.property_id = r.property_id
 WHERE 
-    r.rating > 4.0;
+    (
+        SELECT AVG(rating) 
+        FROM Review r
+        WHERE p.property_id = r.property_id
+    ) > 4.0;
 
 -- Correlated subquery to find users who have made more than 3 bookings
 SELECT 
