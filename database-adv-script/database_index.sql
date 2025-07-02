@@ -7,3 +7,4 @@ CREATE INDEX `idx_property_id` ON `Property`(`property_id`);
 
 -- Booking table indexes
 CREATE INDEX `idx_booking_property` ON `Booking`(`property_id`);
+CREATE INDEX `idx_booking_user` ON `Booking`(`user_id`);
