@@ -17,7 +17,7 @@ SELECT * FROM Booking WHERE start_date BETWEEN '2024-01-01' AND '2024-06-30';
 * Added partitioning by `start_date`
 * Created index on `start_date`
 
-## ⚡ Result
+## ✅ Result
 
 * Reduced scanned data
 * Query became significantly faster
