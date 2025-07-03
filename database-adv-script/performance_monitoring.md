@@ -1,10 +1,10 @@
 # Performance Monitoring
 
-## ✅ Objective
+## 🎯 Objective
 
 Improve query performance by analyzing execution and applying schema changes.
 
-## 🔍 Issue
+## 👀 Issue
 
 Query on `Booking` used full table scan:
 
@@ -14,7 +14,7 @@ SELECT * FROM Booking WHERE start_date BETWEEN '2024-01-01' AND '2024-06-30';
 
 ## 🔧 Fixes
 
-* Added partitioning by `YEAR(start_date)`
+* Added partitioning by `start_date`
 * Created index on `start_date`
 
 ## ⚡ Result
