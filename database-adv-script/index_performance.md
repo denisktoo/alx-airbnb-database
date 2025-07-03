@@ -1,4 +1,4 @@
-# 3. Indexes for Optimization
+# Indexes for Optimization
 
 ## High-Usage Columns
 - **User**: `user_id` (JOINs, subqueries)
