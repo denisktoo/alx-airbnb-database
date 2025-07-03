@@ -1,12 +1,12 @@
 # Partitioning Performance Report
 
-## ✅ Objective
+## 🎯 Objective
 
 Optimize slow queries on a large `Booking` table using partitioning.
 
-## 🧱 Implementation
+## ⚙️ Implementation
 
-* Partitioned by `YEAR(start_date)`.
+* Partitioned by `start_date`.
 * Query used:
 
 ```sql
@@ -14,7 +14,7 @@ SELECT * FROM Booking
 WHERE start_date BETWEEN '2024-01-01' AND '2024-06-30';
 ```
 
-## 📈 Observations
+## 👀 Observations
 
 * Non-partitioned: Full table scan, slower.
 * Partitioned: Scanned only relevant partitions, faster.
